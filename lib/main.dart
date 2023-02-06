@@ -1,8 +1,11 @@
-import 'package:flutter/material.dart';
 import 'package:kelola_duit_youtube/db/database_instance.dart';
 import 'package:kelola_duit_youtube/models/transaksi_model.dart';
 import 'package:kelola_duit_youtube/screens/create_screen.dart';
 import 'package:kelola_duit_youtube/screens/update_screen.dart';
+
+
+
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Kelola Duitku",
+      title: "MOBILE APLIKASI",
       home: MyHomePage(),
     );
   }
@@ -74,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Home Kelola Duitku"),
+        title: Text("MOBILE APLIKASI"),
         actions: [
           IconButton(
             icon: Icon(Icons.add),
